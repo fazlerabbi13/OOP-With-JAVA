@@ -10,6 +10,7 @@ class Circle implements Shape{
         this.radius=radius;
     }
     // Implementing the abstract method from the Shape interface
+    
     public double calculateArea(){
         return Math.PI*radius*radius;
     }
@@ -23,7 +24,7 @@ class Ractangle implements Shape{
         this.length=length;
         this.width=width;
     }
-
+    
     public double calculateArea(){
         return length*width;
     }
