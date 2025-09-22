@@ -1,5 +1,3 @@
-package Encapsulation;
-
 class BankAccount {
     private long accountNo;
     private String name;
@@ -42,8 +40,11 @@ public class Main{
         account.setAccountNo(96325874458464L);
         account.setName("Rabbi");
         account.setEmail("abcd@gmail.com");
-        account.setAmount(70000000);
+        account.setAmount(700000f);
 
-        
+        System.out.println(account.getaccountNo());
+        System.out.println(account.getName());
+        System.out.println(account.getEmail());
+        System.out.println(account.getAmount());
     }
 }
