@@ -19,6 +19,6 @@ public class Main2{
     public static void main(String[] args) {
         Man man = new Man1();
         man.walking();
-        
+        man.running();
     }
 }
