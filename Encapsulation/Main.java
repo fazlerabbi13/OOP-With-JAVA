@@ -1,6 +1,6 @@
 package Encapsulation;
 
-public class BankAccount {
+class BankAccount {
     private long accountNo;
     private String name;
     private String email;
@@ -32,5 +32,18 @@ public class BankAccount {
     }
     public void setAmount(float amount){
         this.amount=amount;
+    }
+}
+
+public class Main{
+    public static void main(String[] args) {
+        BankAccount account = new BankAccount();
+
+        account.setAccountNo(96325874458464L);
+        account.setName("Rabbi");
+        account.setEmail("abcd@gmail.com");
+        account.setAmount(70000000);
+
+        
     }
 }
