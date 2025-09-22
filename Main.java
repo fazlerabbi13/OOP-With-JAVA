@@ -15,9 +15,25 @@ class Circle implements Shape{
     }
 }
 
+class Ractangle implements Shape{
+    private double length;
+    private double width;
+
+    public Ractangle(double length,double width){
+        this.length=length;
+        this.width=width;
+    }
+
+    public double calculateArea(){
+        return length*width;
+    }
+}
 public class Main{
     public static void main(String[] args) {
         Circle circle = new Circle(5.0);
         System.out.println(circle.calculateArea());
+
+        Ractangle ractangle = new Ractangle(5.0,6.0);
+        System.out.println(ractangle.calculateArea());
     }
 }
