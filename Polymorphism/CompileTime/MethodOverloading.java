@@ -9,10 +9,10 @@ public class MethodOverloading {
 
     // Overloaded sum()
     // This sum takes three int parameters
-    // public int sum(int x, int y, int z)
-    // {
-    //     return (x + y + z);
-    // }
+    public int sum(int x, int y, int z)
+    {
+        return (x + y + z);
+    }
 
     // Overloaded sum() 
     // This sum takes two double parameters
