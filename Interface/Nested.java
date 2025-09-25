@@ -4,11 +4,11 @@ interface Parent {
     }
 }
 
-// class Child implements Parent.Test {
-//     public void show() {
-//         System.out.println("show method of interface");
-//     }
-// }
+class Child implements Parent.Test {
+    public void show() {
+        System.out.println("show method of interface");
+    }
+}
 
 
 // Main Class
