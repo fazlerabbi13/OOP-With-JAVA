@@ -45,8 +45,8 @@ public class Main{
       	System.out.println("Sorted by Roll Number ");
 
         // Iterating over entries to print them
-        // for (int i = 0; i < students.size(); i++)
-        //     System.out.println(students.get(i));
+        for (int i = 0; i < students.size(); i++)
+            System.out.println(students.get(i));
       	
     }
 }
