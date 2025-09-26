@@ -19,13 +19,13 @@ class Student {
 }
 
 // Helper class implementing Comparator interface
-// class SortbyRoll implements Comparator<Student> 
-// {    
-//   	// Compare by roll number in ascending order
-//     public int compare(Student a, Student b) {
-//         return a.rollno - b.rollno;
-//     }
-// }
+class SortbyRoll implements Comparator<Student> 
+{    
+  	// Compare by roll number in ascending order
+    public int compare(Student a, Student b) {
+        return a.rollno - b.rollno;
+    }
+}
 
 public class Main{
      public static void main(String[] args) 
