@@ -10,15 +10,15 @@ class SuperClass {
 }
 
 // SuperClass inherited by the SubClass
-// class SubClass extends SuperClass {
+class SubClass extends SuperClass {
 
-//     // method() declaring Unchecked  Exception ArithmeticException
-//     void method() throws ArithmeticException
-//     {
+    // method() declaring Unchecked  Exception ArithmeticException
+    void method() throws ArithmeticException
+    {
 
-//         // ArithmeticException is of type Unchecked Exception
-//         System.out.println("SubClass");
-//     }
+        // ArithmeticException is of type Unchecked Exception
+        System.out.println("SubClass");
+    }
 
    
 // }
